@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sampath Bank</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Add Bootstrap CSS Link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS for Color Theme and Arrows -->
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Add Bootstrap JS and jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- CSS File -->
+  <link href="style.css" rel="stylesheet">
+  <style>
+    /* Custom Color Theme: Grey and Orange */
+    .carousel-item.active {
+      background-color: #F57C00; /* Orange */
+      color: #333; /* Grey */
+      border-radius: 10px; /* Add border-radius */
+  }
+    /* Custom Arrow Color: Grey */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: orange !important; /* Grey */
+    }
+
+    /* Set a fixed height for carousel images */
+    .carousel-item img {
+        max-width: 100%; /* Ensure the image fits within the container */
+        height: auto;       
+        
+    }
+    .carousel-item.active {
+        background: linear-gradient(135deg, red 25%, transparent 25%, transparent 50%, #F57C00 50%, #F57C00 75%, transparent 75%, transparent);
+        background-size: 14px 14px; /* Adjust the size as needed */
+        color: #333; /* Grey */
+    }
+    .carousel-inner{
+      border-radius: 10px;
+
+
+    }
+</style>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="./img/logo3.png" alt="" style="  max-height: 40px;
+        margin-right: 6px;">
+    </a>
+    
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="#team">Careers</a></li>
+          <li><a class="nav-link scrollto" href="#team">About us</a></li>
+          <li><a href="blog.html">Serivices</a></li>
+          <li class="dropdown megamenu"><a href="#"><span>Personal</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li>
+                <a href="#">Term Deposit Accounts</a>
+                <a href="#">Saving Accounts</a>
+                <a href="#">Foreign Currency Accounts</a>
+              </li>
+              <li>
+                <a href="#">Loan</a>
+                <a href="#">Accounts for Professionals</a>
+                <a href="#">Leasing</a>
+              </li>
+              <li>
+                <a href="#">Pawning and Gold Loan</a>
+                <a href="#">Gift Vouchers</a>
+                <a href="#">Foreign Remittances</a>
+              </li>
+              <li>
+                <a href="#">Factoring</a>
+                <a href="#">Relationship Banking</a>
+                <a href="#">Safe Deposit Lockers</a>
+              </li>
+            </ul>
+          </li>
+        
+          <li class="dropdown"><a href="#"><span>Business</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Business Savings</a></li>
+         
+              <li><a href="#">Business Borrowings</a></li>
+              <li><a href="#">Entrepreneur Development</a></li>
+              <li><a href="#">Trade Finance</a></li>
+              <li><a href="#">Treasury</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Corperate</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Virtual Product</a></li>
+              <li class="dropdown"><a href="#"><span>Corporate Products</span> </a>
+             
+              </li>
+              <li><a href="#">Trade Finance</a></li>
+              <li><a href="#">Treasury</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Cards</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Personal Cards</a></li>
+              <li class="dropdown"><a href="#"><span>Corporate Cards</span></a>
+          
+              </li>
+              <li><a href="#">Merchant Services</a></li>
+              <li><a href="#">Card Services</a></li>
+           
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Digital Banking</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Online Banking</a></li>
+              <li class="dropdown"><a href="#"><span>Mobile Banking</span> </i></a>
+        
+              </li>
+              <li><a href="#">Other Touch Points</a></li>
+     
+           
+            </ul>
+          </li>
+
+         
+          <li><a class="getstarted scrollto" href="">Login</a></li>
+          <li><a class="reg" href="">Register</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+    
+  </header><!-- End Header -->
+  <section>
+    <div class="container mt-5">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The Slides -->
+            <div class="carousel-inner">
+                <div class="carousel-item active fade-in">
+                    <img src="./img/slider2.jpg" alt="Slide 1" class="img-fluid">
+                    <div class="carousel-caption">
+                        <!-- Add your content here -->
+                    </div>
+                </div>
+                <div class="carousel-item fade-in">
+                    <img src="./img/slider.jpg" alt="Slide 2" class="img-fluid">
+                    <div class="carousel-caption">
+                        <!-- Add your content here -->
+                    </div>
+                </div>
+                <div class="carousel-item fade-in">
+                    <img src="./img/slider3.jpg" alt="Slide 3" class="img-fluid">
+                    <div class="carousel-caption">
+                        <!-- Add your content here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and Right Controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- JavaScript for fading in carousel items -->
+<script>
+    // Function to add the "fade-in" class to the active carousel item
+    $(document).ready(function() {
+        $(".carousel").on("slide.bs.carousel", function() {
+            $(".carousel-item.active").removeClass("fade-in");
+        });
+
+        $(".carousel").on("slid.bs.carousel", function() {
+            $(".carousel-item.active").addClass("fade-in");
+        });
+    });
+
+</script>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up">Welcome To Sampath Bank </h1>
+          <h2 data-aos="fade-up" data-aos-delay="400">Every single day we strive to help you achieve your ambitions, whatever they might be.During these uncertain times, we're right here by your side.<h2>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Get Started</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="./img/slider.jpg" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  
+ <!-- ======= New Features Section ======= -->
+ <section id="testimonials" class="testimonials">
+
+  <div class="container" data-aos="fade-up">
+
+    <header class="section-header">
+      <h2>What is New</h2>
+      <p>New Features of us</p>
+    </header>
+
+    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">     
+            <div class="profile mt-auto">
+              <img src="./img/f1.png" class="testimonial-img" alt="">
+              <h3>Colombo International Book Fair with Sampath Bank</h3>      
+            </div>
+          </div>
+        </div><!-- End item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="profile mt-auto">
+              <img src="./img/f2.png" class="testimonial-img" alt="">
+              <h3>Remote account opening through QR</h3>  
+            </div>
+          </div>
+        </div><!-- End  item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+        
+            <div class="profile mt-auto">
+              <img src="./img/f3.png" class="testimonial-img" alt="">
+              <h3>WePay</h3>
+              <h4>Touchless ATM </h4>
+            </div>
+          </div>
+        </div><!-- End  item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+
+            <div class="profile mt-auto">
+              <img src="./img/f4.png" class="testimonial-img" alt="">
+              <h3>Money Market Account</h3>
+              <h4>Designed to make you more money every week!
+
+              </h4>
+            </div>
+          </div>
+        </div><!-- End item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <div class="profile mt-auto">
+              <img src="./img/f5.png" class="testimonial-img" alt="">
+              <h3>The New Trend in Money Transfers </h3>
+            </div>
+          </div>
+        </div><!-- End item -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+</section><!-- End Section -->
+
+<!----Cards-->
+<section id="clients" class="clients">
+
+  <div class="container" data-aos="fade-up">
+
+    <header class="section-header">
+      <h2>Our Cards</h2>
+      <p>Latest Card Promotions</p>
+    </header>
+
+    <div class="clients-slider swiper">
+      <div class="swiper-wrapper align-items-center">
+        <div class="swiper-slide"><img src="./img/c1.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="./img/c2.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="./img/c3.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="./img/c4.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="./img/c5.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="./img/c6.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="./img/c7.png" class="img-fluid" alt=""></div>
+        <div class="swiper-slide"><img src="./img/c8.png" class="img-fluid" alt=""></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+</section><!-- End Cards Section -->
+
+<!-- ======= Recent Blog Posts Section ======= -->
+<section id="recent-blog-posts" class="recent-blog-posts">
+
+  <div class="container" data-aos="fade-up">
+
+    <div class="row mb-4">
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="./img/hotel.jpg" class="img-fluid" alt=""></div>
+          <span class="post-date">Special Discounts</span>
+          <h3 class="post-title">Hotels</h3>
+          <a href="#" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="./img/supermarket-2.jpeg" class="img-fluid" alt=""></div>
+          <span class="post-date">Special Discounts</span>
+          <h3 class="post-title">Super Markerts</h3>
+          <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="./img/blog-1.jpg" class="img-fluid" alt=""></div>
+          <span class="post-date">Online Banking</span>
+          <h3 class="post-title">Online</h3>
+          <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+</div>
+      <div class="row mb-4">
+
+      <div class="col-lg-4 ">
+        <div class="post-box">
+          <div class="post-img"><img src="./img/furni.jpg" class="img-fluid" alt=""></div>
+          <span class="post-date">Special Discounts</span>
+          <h3 class="post-title">Electronics and Furnitures</h3>
+          <a href="#" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="./img/health.jpg" class="img-fluid" alt=""></div>
+          <span class="post-date">Special Discounts</span>
+          <h3 class="post-title">Health and Insurance</h3>
+          <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="post-box">
+          <div class="post-img"><img src="./img/fashion.jpg" class="img-fluid" alt=""></div>
+          <span class="post-date">Special Discounts</span>
+          <h3 class="post-title">Fashion</h3>
+          <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+  </div>
+  <div class="row mb-4">
+
+    <div class="col-lg-4 ">
+      <div class="post-box">
+        <div class="post-img"><img src="./img/dining.jpg" class="img-fluid" alt=""></div>
+        <span class="post-date">Special Discounts</span>
+        <h3 class="post-title">Dining</h3>
+        <a href="#" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="post-box">
+        <div class="post-img"><img src="./img/travel.jpg" class="img-fluid" alt=""></div>
+        <span class="post-date">Special Discounts</span>
+        <h3 class="post-title">Travel and Lesuire</h3>
+        <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="post-box">
+        <div class="post-img"><img src="./img/offers.jpg" class="img-fluid" alt=""></div>
+        <span class="post-date">Special Discounts</span>
+        <h3 class="post-title">Premium Offers</h3>
+        <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+
+</div>
+<div class="row mb-4">
+
+  <div class="col-lg-4 ">
+    <div class="post-box">
+      <div class="post-img"><img src="./img/visa.jpg" class="img-fluid" alt=""></div>
+      <span class="post-date">Special Discounts</span>
+      <h3 class="post-title">Visa Offers</h3>
+      <a href="#" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="post-box">
+      <div class="post-img"><img src="./img/master.jpg" class="img-fluid" alt=""></div>
+      <span class="post-date">Special Discounts</span>
+      <h3 class="post-title">Master Card Offers</h3>
+      <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <div class="col-lg-4">
+    <div class="post-box">
+      <div class="post-img"><img src="./img/others.jpg" class="img-fluid" alt=""></div>
+      <span class="post-date">Special Discounts</span>
+      <h3 class="post-title">Others</h3>
+      <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+
+</div>
+
+</section><!-- End Recent Blog Posts Section -->
+<main id="main">
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <div class="container" data-aos="fade-up">
+      <div class="row gx-0">
+
+        <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="content">
+            <h3></h3>
+            <h2>Sampath Bank PLC</h2>
+            <p>
+              Public Limited Liability Company, incorporated in Sri Lanka on 10th March 1986
+
+Incorporated under Companies Act No. 17 of 1982 and listed on the Colombo Stock Exchange. Certificate to Commence business received on 2 April 1986.A licensed Commercial Bank under the Banking Act No.30 of 1988 and supervised by the Central Bank of Sri Lanka.
+            </p>
+            <div class="text-center text-lg-start">
+              <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Read More</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+          <img src="./img/banner.jpg" class="img-fluid" alt="">
+        </div>
+
+      </div>
+    </div>
+
+  </section><!-- End About Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Sampath News</h2>
+          <p>Get To Know Us, What We Do....</p>
+        </header>
+
+        <div class="row gy-4" data-aos="fade-left">
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <h3 style="color: black;">Central Bank press release on risks of using and investing </h3>
+
+              <img src="./img/central.png" class="img-fluid" alt="">
+              <ul>
+            <p>PUBLISHED ON: 2023-05-08</p>
+              </ul>
+              <a href="#" class="btn-buy">Read More</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+ 
+              <h3 style="color: black;">Sampath Easy Access</h3>
+    
+              <img src="./img/easy.png" class="img-fluid" alt="">
+          <p>PUBLISHED ON: 2023-04-12</p>
+              <a href="#" class="btn-buy">Read More</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <h3 style="color: black;">Special Notice</h3>
+
+              <img src="./img/special.png" class="img-fluid" alt="">
+        <p>PUBLISHED ON: 2021-07-02</p>
+              <a href="#" class="btn-buy">Read More</a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="box">
+              <h3 style="color: black;">Extension of Moratorium Facility</h3>
+              <img src="./img/faculty.png" class="img-fluid" alt="">
+              <p>PUBLISHED ON: 2021-07-01</p>
+              <a href="#" class="btn-buy">Read More</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row">   
+        <!-- Feature Icons -->
+        <div class="row feature-icons" data-aos="fade-up">
+     
+          <header class="section-header">
+            <h2>Sampath News</h2>
+            <p>Our Services</p>
+          </header>
+
+          <div class="row">
+
+            <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+              <img src="./img/22.png" class="img-fluid p-4" alt="">
+            </div>
+
+            <div class="col-xl-8 d-flex content">
+              <div class="row align-self-center gy-4">
+
+                <div class="col-md-6 icon-box" data-aos="fade-up">
+                  <i class="ri-line-chart-line"></i>
+                  <div>
+                    <h4>Digital Banking</h4>
+                    <p>Sampath Bank offers modern digital banking solutions for your convenience.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="ri-stack-line"></i>
+                  <div>
+                    <h4>24/7 Services</h4>
+                    <p>Sampath Bank offers round-the-clock services for your convenience.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="ri-brush-4-line"></i>
+                  <div>
+                    <h4>Business Banking Services</h4>
+                    <p>Sampath Bank offers comprehensive Business Banking Services tailored to your needs, providing financial solutions for your success.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="ri-magic-line"></i>
+                  <div>
+                    <h4>Insurance Services</h4>
+                    <p>Sampath Bank offers comprehensive insurance services</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="ri-command-line"></i>
+                  <div>
+                    <h4>International Banking</h4>
+                    <p>Sampath Bank offers international banking solutions tailored to your global financial needs</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                  <i class="ri-radar-line"></i>
+                  <div>
+                    <h4>Specialized Services</h4>
+                    <p>Sampath Bank offers specialized financial services</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div><!-- End Feature Icons -->
+
+      </div>
+
+    </section><!-- End Features Section -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="+2000000" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Our Clients</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="62" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Sponsors</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-headset" style="color: #15be56;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="40" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hours Of Support-For week</p>
+         
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-people" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="3000" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Hard Workers</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+ 
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>
+                    Sampath Bank PLC, <br>
+                    No 110,<br>
+                    Sir James Peiris Mawatha <br>
+                    Colombo 02.<br>
+                    Srilanka<br>
+                    <strong>Phone:</strong> +94 11 2 30 30 50<br>
+                    <strong>Email:</strong> info@sampath.com<br>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p> +94 11 2 30 30 50</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@sampath.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Every Gov.worked Days<br>9:00AM - 03:00PM</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="./img/logo3.png" alt="">
+             
+            </a>
+            <p>Every single day we strive to help you achieve your ambitions, whatever they might be.
+              During these uncertain times, we're right here by your side</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+           
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Applications</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Interest / Exchange Rates</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Banking Tips</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Online Loan Application</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Preliminery Loan Evaluation</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              Sampath Bank PLC, <br>
+              No 110,<br>
+              Sir James Peiris Mawatha <br>
+              Colombo 02.<br>
+              Srilanka
+              <strong>Phone:</strong> +94 11 2 30 30 50<br>
+              <strong>Email:</strong> info@sampath.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Sampath Bank</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
